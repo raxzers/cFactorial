@@ -25,10 +25,14 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    Comandos.cpp \
+    jotasonparser.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    Comandos.h \
+    jotasonparser.h
 
 FORMS += \
         mainwindow.ui

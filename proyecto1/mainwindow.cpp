@@ -1,5 +1,8 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
+#include "Comandos.h"
+#include "jotasonparser.h"
+
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -15,6 +18,14 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_actionRun_triggered()
 {
+
+
    QString j= ui->plainTextEdit->toPlainText();
-   ui->label->setText(j);
+   Comandos sep;
+   sep.separar(j);
+   ui->label->setText(sep.codigo);
+
+   jotasonParser jt;
+   jt.objectToJSON();
+
 }
