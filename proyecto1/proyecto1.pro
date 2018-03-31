@@ -32,7 +32,8 @@ SOURCES += \
 HEADERS += \
         mainwindow.h \
     Comandos.h \
-    jotasonparser.h
+    jotasonparser.h \
+    include/rapidjson/rapidjson.h
 
 FORMS += \
         mainwindow.ui
