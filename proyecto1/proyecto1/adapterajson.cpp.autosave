@@ -1,9 +1,0 @@
-#include "adapterajson.h"
-
-adapterAJSON::adapterAJSON()
-{
-
-}
-void adapterAJSON::pasarObjetoJson(){
-    
-}
