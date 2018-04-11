@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/servidor.dir/main.cpp.o CMakeFiles/servidor.dir/Convertidor.cpp.o  -o servidor 
